@@ -6,10 +6,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "prisma": "npx prisma migrate dev",
     "lint": "next lint"
   },
   "dependencies": {
+    "@prisma/client": "^4.0.0",
+    "apollo-server-micro": "^3.9.0",
     "next": "12.2.1",
+    "prisma": "^4.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
